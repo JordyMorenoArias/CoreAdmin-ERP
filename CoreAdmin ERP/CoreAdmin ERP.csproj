@@ -7,4 +7,14 @@
     <RootNamespace>CoreAdmin_ERP</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Application\AutoMapper\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Infrastructure\Data\" />
+  </ItemGroup>
+
 </Project>
