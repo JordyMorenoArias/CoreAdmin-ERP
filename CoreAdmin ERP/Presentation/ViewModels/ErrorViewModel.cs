@@ -1,4 +1,4 @@
-namespace CoreAdmin_ERP.Models
+namespace CoreAdmin_ERP.Presentation.ViewModels
 {
     public class ErrorViewModel
     {

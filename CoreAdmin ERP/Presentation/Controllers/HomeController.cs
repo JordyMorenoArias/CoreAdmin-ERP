@@ -2,7 +2,7 @@ using System.Diagnostics;
 using CoreAdmin_ERP.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CoreAdmin_ERP.Controllers
+namespace CoreAdmin_ERP.Presentation.Controllers
 {
     public class HomeController : Controller
     {
