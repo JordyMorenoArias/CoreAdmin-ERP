@@ -5,6 +5,28 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>CoreAdmin_ERP</RootNamespace>
+    <UserSecretsId>be0c05f2-c79d-4ca3-899e-d132f032689d</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Application\AutoMapper\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Infrastructure\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
