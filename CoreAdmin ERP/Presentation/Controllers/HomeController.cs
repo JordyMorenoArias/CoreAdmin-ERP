@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using CoreAdmin_ERP.Models;
+using CoreAdmin_ERP.Presentation.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreAdmin_ERP.Presentation.Controllers

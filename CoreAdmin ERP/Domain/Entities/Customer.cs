@@ -1,22 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace CoreAdmin_ERP.Domain.Entities
+﻿namespace CoreAdmin_ERP.Domain.Entities
 {
     public class Customer
     {
-        [Key]
         public int Id { get; set; }
 
-        [Required, MaxLength(100)]
         public string FullName { get; set; } = string.Empty;
 
-        [Required, MaxLength(100)]
         public string PhoneNumber { get; set; } = string.Empty;
 
-        [Required, EmailAddress, MaxLength(100)]
         public string Email { get; set; } = string.Empty;
 
-        [Required, MaxLength(100)]
         public string Address { get; set; } = string.Empty;
 
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
